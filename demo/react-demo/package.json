@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@lucas-aragno/vertically-aligned": "2.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "vertically-aligned": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",

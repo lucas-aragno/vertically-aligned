@@ -11,9 +11,6 @@
     "build": "node_modules/.bin/rollup -c",
     "lint": "node_modules/.bin/eslint index.js"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@lucas-aragno"
-  },
   "devDependencies": {
     "eslint": "^7.3.1",
     "eslint-config-standard": "^14.1.1",
