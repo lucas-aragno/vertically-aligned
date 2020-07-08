@@ -1,11 +1,11 @@
 {
-  "name": "vertically-align",
+  "name": "vertically-aligned",
   "version": "2.0.0",
   "description": "vertically align content on html (native)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucas-aragno/vertically-align.git"
+    "url": "git+https://github.com/lucas-aragno/vertically-aligned.git"
   },
   "scripts": {
     "build": "node_modules/.bin/rollup -c",
