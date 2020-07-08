@@ -1,6 +1,6 @@
 # Vertically Align
 
-Small (> 1kb) and native web component designed to verically align elements on a page.
+Small (<1kb) and native web component designed to verically align elements on a page.
 
 ## Why?
 
