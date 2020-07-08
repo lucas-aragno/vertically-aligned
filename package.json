@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "vertically align content on html (native)",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucas-aragno/vertically-centered.git"
+  },
   "scripts": {
     "build": "node_modules/.bin/rollup -c",
     "lint": "node_modules/.bin/eslint index.js"
