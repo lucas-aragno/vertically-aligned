@@ -1,4 +1,4 @@
-class VerticallyCentered extends HTMLElement {
+class VerticallyAligned extends HTMLElement {
   constructor () {
     super()
     let innerStyles = this.noFlex
@@ -52,4 +52,4 @@ class VerticallyCentered extends HTMLElement {
   }
 }
 
-customElements.define('vertically-centered', VerticallyCentered)
+customElements.define('vertically-aligned', VerticallyAligned)

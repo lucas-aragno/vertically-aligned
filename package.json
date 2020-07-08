@@ -1,18 +1,18 @@
 {
-  "name": "vertically-centered",
-  "version": "1.0.0",
+  "name": "vertically-align",
+  "version": "2.0.0",
   "description": "vertically align content on html (native)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lucas-aragno/vertically-centered.git"
+    "url": "git+https://github.com/lucas-aragno/vertically-align.git"
   },
   "scripts": {
     "build": "node_modules/.bin/rollup -c",
     "lint": "node_modules/.bin/eslint index.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@lucas-aragno"
   },
   "devDependencies": {
     "eslint": "^7.3.1",
@@ -28,7 +28,7 @@
     "rollup-plugin-uglify-es": "0.0.1"
   },
   "keywords": [
-    "vertically center",
+    "vertically align",
     "web component",
     "react"
   ],

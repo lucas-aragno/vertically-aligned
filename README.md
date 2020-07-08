@@ -1,4 +1,4 @@
-# Vertically Align
+# Vertically Aligned
 
 Small (<1kb) and native web component designed to verically align elements on a page.
 
@@ -14,9 +14,9 @@ Seems like vertically align is still an issue? I still see a lot of people jokin
 On your regular websites just include the script and use the component
 
 ```html
-    <vertically-centered>
+    <vertically-aligned>
       <h1> content !!! </h1>
-    </vertically-centered>
+    </vertically-aligned>
 ```
 
 On react,preact and similar frameworks you can import the component and use it:
@@ -24,14 +24,14 @@ On react,preact and similar frameworks you can import the component and use it:
 ```javascript
 
 import React, { Component } from 'react';
-import 'vertically-centered';
+import 'vertically-aligned';
 
 class HelloWorld extends Component {
   render() {
     return (
-      <vertically-centered>
+      <vertically-aligned>
        <h1>Hello World, React!</h1>
-      </vertically-centered>
+      </vertically-aligned>
   ); 
   } 
 } 
@@ -44,7 +44,7 @@ export default HelloWorld;
 Add the attribute `noFlex` to the HTML tag and it will use table styles.
 
 ```html
-    <vertically-centered noFlex>
+    <vertically-aligned noFlex>
       <h1> content !!! </h1>
-    </vertically-centered>
+    </vertically-aligned>
 ```

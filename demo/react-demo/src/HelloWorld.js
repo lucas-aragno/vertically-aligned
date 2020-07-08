@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react';
-import 'vertically-centered';
+import 'vertically-aligned';
 
 class HelloWorld extends Component {
   render() {
     return (
-    <vertically-centered>
+    <vertically-aligned>
       <h1>Hello World, React!</h1>
-    </vertically-centered>
+    </vertically-aligned>
   ); 
   } 
 } 
