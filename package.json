@@ -1,0 +1,33 @@
+{
+  "name": "vertically-centered",
+  "version": "1.0.0",
+  "description": "vertically align content on html (native)",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/rollup -c",
+    "lint": "node_modules/.bin/eslint index.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "rollup": "^2.18.0",
+    "rollup-plugin-babel-minify": "^10.0.0",
+    "rollup-plugin-uglify-es": "0.0.1"
+  },
+  "keywords": [
+    "vertically center",
+    "web component",
+    "react"
+  ],
+  "author": "lucas.aragno157@gmail.com",
+  "license": "MIT"
+}
